@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/cold-beverages.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-logo">
+            <h2>COFFEE</h2>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <i class="fa-solid fa-xmark" id="menu-close"></i>
+            <a href="#"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#menu"><li>Menu</li></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            </ul>
+           
+        </div>
+        <i class="fa-solid fa-bars" id="menu-open"></i>
+    </div>
+
+    <div class="hero">
+        <div class="hero-left">
+            <h2>Best Coffee</h2>
+            <h2 class="hero-text">Make your day great with our special coffee! </h2>
+            <p>Welcome to our coffee paradise, where bean tells a story and every cup sparks joy.</p>
+          <a href="#contact"> <button class="contact">Contact Us</button> </a> 
+        </div>
+        <div class="hero-right">
+            <img src="images/coffee-hero-section.png">
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-left">
+            <img src="images/about-image.jpg">
+        </div>
+        <div class="about-right">
+            <h2>ABOUT US</h2>
+            <p>At Coffee House in Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing on exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+            <div class="logos">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        </div>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-text">
+            <h2>OUR MENU</h2>
+        </div>
+
+        <div class="menu-items">
+            <div class="menu-item1 item">
+                <img src="images/hot-beverages.png">
+                <h3>Hot Beverages</h3>
+                <p>Wide range of Steaming hot coffee to make you fresh and light.</p>
+            </div>
+
+            <div class="menu-item2 item">
+                <img src="images/cold-beverages.png">
+                <h3>Cold Beverages</h3>
+                <p>Creamy and frothy cold coffee to make you cool.</p>
+            </div>
+
+            <div class="menu-item3 item">
+                <img src="images/refreshment.png">
+                <h3>Refreshment</h3>
+                <p>Fruit and icy refreshing drink to make feel refresh.</p>
+            </div>
+
+            <div class="menu-item4 item">
+                <img src="images/special-combo.png">
+                <h3>Special Combos</h3>
+                <p>Your favourite eating and drinking combinations.</p>
+            </div>
+
+            <div class="menu-item5 item">
+                <img src="images/desserts.png">
+                <h3>Dessert</h3>
+                <p>Satiate your palate and take you on a culinary treat.</p>
+            </div>
+
+            <div class="menu-item6 item">
+                <img src="images/burger-frenchfries.png">
+                <h3>Burger & French Fries</h3>
+                <p>Quick bites to satisfy your small size hunger.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+        <h2>GALLERY</h2>
+        <div class="gallery-images">
+            <img src="images/gallery-1.jpg">
+            <img src="images/gallery-2.jpg">
+            <img src="images/gallery-3.jpg">
+            <img src="images/gallery-4.jpg">
+            <img src="images/gallery-5.jpg">
+            <img src="images/gallery-6.jpg">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+    </div>
+
+    <div class="footer">
+        <h2>&copy; 2024 Coffee Shop </h2>
+    </div>
+
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
